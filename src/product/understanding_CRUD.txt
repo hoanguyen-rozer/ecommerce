@@ -1,0 +1,6 @@
+### Understanding CRUD
+
+Create -- POST 
+Retrieve  List / Search -- GET 
+Update -- Put, Patch, POST
+Delete -- Delete

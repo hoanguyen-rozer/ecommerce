@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<!-- Stripe Payment-->
+<div class="col-10 col-md-6 mx-auto">
+    <div class="stripe-payment-form" data-token="{{ publish_key }}" data-next-url="{% if next_url %}{{next_url}}{% endif %}" data-btn-title="Add New Card">
+
+    </div>
+</div>
+
+{% endblock content %}
+
+
+{% block js %}
+
+{% verbatim %}
+<script id="stripeTemplate" type="text/x-jsrender">
+  <form class="payment-form" action="/charge" method="post" id="payment-form" data-token="{{:publishKey}}" data-next-url="{{:nextUrl}}">
+    <div class="form-row">
+        <label for="card-element">
+        Credit or debit card
+        </label>
+        <div id="card-element" class="form-control">
+        </div>
+
+
+        <div id="card-errors" role="alert"></div>
+    </div>
+
+    <button class="btn btn-primary my-3 btn-load">{{:btnTitle}}</button>
+    </form>
+  </script>
+{% endverbatim %}
+
+<script>
+
+  
+</script>
+{% endblock js %}
+    

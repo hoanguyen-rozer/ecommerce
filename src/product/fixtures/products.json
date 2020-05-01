@@ -1,0 +1,93 @@
+[
+{
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt",
+        "description": "This is a new T-shirt.",
+        "price": "39.99",
+        "image": "products/d8dndrn-4ec34ded-9382-4dcd-ad6d-2c2715a70198.jpg",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+        "title": "Hat",
+        "slug": "hat",
+        "description": "This is a new hat.",
+        "price": "39.99",
+        "image": "products/ffwxo4wy0jry.jpg",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+        "title": "Jean",
+        "slug": "jean",
+        "description": "This is a new jean",
+        "price": "39.99",
+        "image": "products/Chrysanthemum.jpg",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+        "title": "Jacket",
+        "slug": "jacket",
+        "description": "This is a jacket",
+        "price": "39.99",
+        "image": "products/Penguins.jpg",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "product.product",
+    "pk": 5,
+    "fields": {
+        "title": "Coat",
+        "slug": "coat",
+        "description": "This is a coat",
+        "price": "39.99",
+        "image": "products/102164548/102164548.jpg",
+        "featured": false,
+        "active": true
+    }
+},
+{
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+        "title": "T-shirt Character",
+        "slug": "t-shirt-char",
+        "description": "Newest sample T-shirt",
+        "price": "39.99",
+        "image": "products/232809125/232809125.jpg",
+        "featured": true,
+        "active": true
+    }
+},
+{
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+        "title": "Balo-Tottenhamp",
+        "slug": "balo-tottenhamp",
+        "description": "This is a balo of tottenhamp hotspur footballclub",
+        "price": "39.99",
+        "image": "products/105093248/105093248.jpg",
+        "featured": false,
+        "active": true
+    }
+}
+]

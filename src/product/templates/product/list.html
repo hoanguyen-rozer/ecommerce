@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class="container">     
+        <div class="row">
+            {% for obj in object_list %}
+            <div class="col-xs-1-12">
+                {{ forloop.counter }}
+                {% include 'product/snippets/card.html' with instance=obj %}
+              
+                {% if forloop.counter|divisibleby:3 %}
+                    </div></div><div class="row"><div class="col-12"><hr></div>              
+                {% comment %}
+                {% elif forloop.counter|divisibleby:2 %} 
+                </div></div><div class="row"><div class="col-12"><hr></div>
+                {% endcomment %}
+                {% else %}
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+     
+{% endblock content %}
+    
