@@ -25,9 +25,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*0_21ru@leeq6#h#3pv*ke58)g^d=qd#uk*#-l=30i@g=(ftpk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ecomme-12.herokuapp.com']
 
 # USER MODEL
 AUTH_USER_MODEL = 'accounts.User'
